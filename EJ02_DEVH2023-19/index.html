@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Basica de un Formulario</title>
+</head>
+<body>
+    <center>
+    <form action="formulario-2.html" method="post">
+        <table>
+        <caption><h2>Novell Services Login</h2></caption>
+            <tbody>
+                <tr>
+                    <td width="110px"><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="cityOfEmployment">City of Employment:</label></td>
+                    <td><input type="text" id="cityOfEmployment" name="cityOfEmployment"></td>
+                </tr>
+                <tr>
+                    <td><label for="webServer">Web Server:</label></td>
+                    <td><select name="webServer">
+                        <option>--Choose a Server--</option>
+                        <option>Opcion1</option>
+                        <option>Opcion2</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td><label for="role">Please specify your role:</label></td>
+                    <td>
+                        <input type="radio" id="admin" name="role" value="admin">
+                        <label for="admin">Admin</label><br>
+                        <input type="radio" id="engineer" name="role" value="engineer">
+                        <label for="engineer">Engineer</label><br>
+                        <input type="radio" id="manager" name="role" value="manager">
+                        <label for="manager">Manager</label><br>
+                        <input type="radio" id="guest" name="role" value="guest">
+                        <label for="guest">Guest</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td><label for="signOn">Single Sign-on to the following:</label></td>
+                    <td>
+                        <input type="checkbox" id="mail" name="signOn" value="mail">
+                        <label for="mail">Mail</label><br>
+                        <input type="checkbox" id="payroll" name="signOn" value="payroll">
+                        <label for="payroll">Payroll</label><br>
+                        <input type="checkbox" id="selfService" name="signOn" value="selfService">
+                        <label for="selfService">Self-service</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    </center>
+</body>
