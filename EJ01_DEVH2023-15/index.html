@@ -1,77 +1,80 @@
-<!DOCTYPE html>action="formulario-1.html" method="post"
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estructura Basica de un Formulario</title>
 </head>
+
 <body>
     <h1>My feedback form</h1>
     <blockquote>
-        <form action="formulario-1.html" method="post">
+        <form action="formulario-1.html" method="post" >
             <ul>
                 <li>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"></li>
+                    <input type="text" id="name" name="name" />
+                </li>
                 <li>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" />
                 </li>
                 <li>
                     <label for="password">Password:</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" />
                 </li>
-                <br>
+                <br />
                 <li>Please check all the emotions that apply to you:</li>
-                    <ul type="disc">
-                        <li>
-                            <label for="angry">Angry</label>
-                            <input type="checkbox" id="angry" name="emotions" value="angry" checked>
-                        </li>
-                        <li>
-                            <label for="sad">Sad</label>
-                            <input type="checkbox" id="sad" name="emotions" value="sad">
-                        </li>
-                        <li>
-                            <label for="happy">Happy</label>
-                            <input type="checkbox" id="happy" name="emotions" value="happy">
-                        </li>
-                        <li>
-                            <label for="ambivalent">Ambivalent</label>
-                            <input type="checkbox" id="ambivalent" name="emotions" value="ambivalent">
-                        </li>
-                    </ul>
+                <ul type="disc">
+                    <li>
+                        <label for="angry">Angry</label>
+                        <input type="checkbox" id="angry" name="emotions" value="angry" checked />
+                    </li>
+                    <li>
+                        <label for="sad">Sad</label>
+                        <input type="checkbox" id="sad" name="emotions" value="sad" />
+                    </li>
+                    <li>
+                        <label for="happy">Happy</label>
+                        <input type="checkbox" id="happy" name="emotions" value="happy" />
+                    </li>
+                    <li>
+                        <label for="ambivalent">Ambivalent</label>
+                        <input type="checkbox" id="ambivalent" name="emotions" value="ambivalent" />
+                    </li>
+                </ul>
                 <li>How satisfied were you with our service?</li>
-                    <ul type="disc">
-                        <li>
-                            <label for="verySatisfied">Very Satisfied</label>
-                            <input type="radio" id="verySatisfied" name="service" value="verySatisfied" checked>
-                        </li>
-                        <li>
-                            <label for="satisfied">Satisfied</label>
-                            <input type="radio" id="satisfied" name="service" value="satisfied">
-                        </li>
-                        <li>
-                            <label for="didntCare">Didn't care</label>
-                            <input type="radio" id="didntCare" name="service" value="didntCare">
-                        </li>
-                        <li>
-                            <label for="dissatisfied">Dissatisfied</label>
-                            <input type="radio" id="dissatisfied" name="service" value="dissatisfied">
-                        </li>
-                    </ul>
+                <ul type="disc">
+                    <li>
+                        <label for="verySatisfied">Very Satisfied</label>
+                        <input type="radio" id="verySatisfied" name="service" value="verySatisfied" checked />
+                    </li>
+                    <li>
+                        <label for="satisfied">Satisfied</label>
+                        <input type="radio" id="satisfied" name="service" value="satisfied" />
+                    </li>
+                    <li>
+                        <label for="didntCare">Didn't care</label>
+                        <input type="radio" id="didntCare" name="service" value="didntCare" />
+                    </li>
+                    <li>
+                        <label for="dissatisfied">Dissatisfied</label>
+                        <input type="radio" id="dissatisfied" name="service" value="dissatisfied" />
+                    </li>
+                </ul>
                 <li>
                     <label for="furtherComments">Further comments:</label>
                     <textarea id="furtherComments" name="furtherComments" cols="30" rows="3"></textarea>
                 </li>
-                <br><br>
+                <br /><br />
                 <li>
                     <label for="bioPhoto">Bio photo:</label>
-                    <input type="DESCONOCIDO" id="bioPhoto" name="bioPhoto">
-                    <input type="file" id="bioPhoto2" name="bioPhoto2">
+                    <input type="DESCONOCIDO" id="bioPhoto" name="bioPhoto" />
+                    <input type="file" id="bioPhoto2" name="bioPhoto2" />
                 </li>
-                <br><br>
+                <br /><br />
                 <li>
                     <label for="location">Location visited:</label>
                     <select name="location">
@@ -85,7 +88,9 @@
     </blockquote>
     <ul>
         <li>
-            <input type="submit" value="submit">
+            <input type="submit" value="submit" />
         </li>
     </ul>
 </body>
+
+</html>
