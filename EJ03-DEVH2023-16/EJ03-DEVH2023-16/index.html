@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/196a6357be.js" crossorigin="anonymous"></script>
+
+    <title>Formulario</title>
+    <!-- Estructura básica de un formulario aplicando CSS Flexbox y Grid -->
+</head>
+<body>
+
+    <form class="formulario" action="formulario-3.html" method="post">
+        <div class="header">
+               <p>Inicio de Sesión</p> 
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="email" title="" required>
+            <label data-title="Rellene este campo" for="email">Email</label>
+        </div>
+
+        <div class="input-box">
+            <input type="text" id="password" title="" required>
+            <label data-title="Rellene este campo" for="password">Contraseña</label>
+        </div>
+
+        <div class="input-button">
+            <input type="submit" id="ingresar" name="ingresar" value="">
+            <label>Ingresar</label>
+        </div>
+
+        <div class="text-1">
+                <t>O inicia sesión con</t>
+        </div>
+
+        <div class="input-buttons">
+        
+            <div class="button-facebook">
+                <input type="submit" class="input-facebook" value="Facebook" id="facebook">
+                <label for="facebook" class="input-facebook-label"><i class="fa-brands fa-square-facebook"></i>Facebook</label>
+            </div>
+        
+            <div class="button-google">
+                <input type="submit" class="input-google" value="Google" id="google">
+                <label for="google" class="input-google-label"><i class="fa-brands fa-square-google-plus"></i>Google</label>
+            </div>
+        
+        </div>
+
+        <div class="footer">
+            <b>¿No es un miembro? <a href="">Registrate ahora</a></b>
+        </div>
+    </form>
+    
+</body>
+</html>
